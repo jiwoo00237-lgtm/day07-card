@@ -6,7 +6,7 @@ git add .
 git commit -m "명함 페이지 추가"
 
 # ③ GitHub 저장소 연결 및 업로드
-git remote add origin https://github.com/박지현/day07-card.git
+git remote add origin https://github.com/jiwoo00237-lgtm/day07-card.git
 git branch -M main
 git push -u origin main
 
