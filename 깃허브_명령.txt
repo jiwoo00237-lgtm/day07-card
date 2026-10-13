@@ -1,0 +1,21 @@
+# ① Git 저장소 만들기
+git init
+
+# ② 파일 추가 및 첫 커밋
+git add .
+git commit -m "명함 페이지 추가"
+
+# ③ GitHub 저장소 연결 및 업로드
+git remote add origin https://github.com/박지현/day07-card.git
+git branch -M main
+git push -u origin main
+
+# ④ GitHub Pages 설정
+# Settings → Pages
+# Source: Deploy from a branch
+# Branch: main / (root) → Save
+
+# ⑤ 수정 후 다시 업로드
+git add .
+git commit -m "소개 문구 변경"
+git push
